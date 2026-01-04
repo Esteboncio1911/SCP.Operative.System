@@ -1,0 +1,214 @@
+{
+    "es": {
+        "header": {
+            "title": "█ FUNDACIÓN SCP █",
+            "subtitle": "ASEGURAR. CONTENER. PROTEGER."
+        },
+        "login": {
+            "warning": "⚠ SOLO PERSONAL AUTORIZADO ⚠",
+            "title": "[ TERMINAL DE ACCESO SEGURO ]",
+            "classified": "SE REQUIERE NIVEL DE AUTORIZACIÓN",
+            "employeeId": "> ID DE EMPLEADO:",
+            "securityCode": "> CÓDIGO DE SEGURIDAD:",
+            "employeeIdPlaceholder": "Ingrese ID de empleado...",
+            "securityCodePlaceholder": "Ingrese código de seguridad...",
+            "authenticate": "[ AUTENTICAR ]",
+            "guestAccess": "[ ACCESO INVITADO ]",
+            "securityNotice": "AVISO DE SEGURIDAD:",
+            "securityLine1": "Todos los intentos de acceso son registrados y monitoreados.",
+            "securityLine2": "El acceso no autorizado resultará en terminación inmediata."
+        },
+        "nav": {
+            "database": "BASE DE DATOS SCP",
+            "personnel": "PERSONAL",
+            "incidents": "INCIDENTES",
+            "logs": "REGISTROS DEL SISTEMA",
+            "settings": "AJUSTES",
+            "logout": "CERRAR SESIÓN"
+        },
+        "database": {
+            "title": "[ BASE DE DATOS SCP ]",
+            "class": "CLASE",
+            "objectClass": "CLASE DE OBJETO"
+        },
+        "personnel": {
+            "title": "[ DIRECTORIO DE PERSONAL ]",
+            "id": "ID",
+            "name": "NOMBRE",
+            "clearance": "AUTORIZACIÓN",
+            "department": "DEPARTAMENTO",
+            "status": "ESTADO",
+            "online": "EN LÍNEA",
+            "offline": "DESCONECTADO",
+            "mission": "EN MISIÓN"
+        },
+        "incidents": {
+            "title": "[ INFORMES DE INCIDENTES ]",
+            "clearanceRequired": "⚠ SE REQUIERE AUTORIZACIÓN NIVEL 4 ⚠",
+            "severity": "SEVERIDAD",
+            "subject": "Sujeto"
+        },
+        "logs": {
+            "title": "[ REGISTRO DE ACTIVIDAD DEL SISTEMA ]",
+            "systemInit": "Sistema inicializado",
+            "databaseOnline": "Base de datos de la Fundación en línea",
+            "securityActive": "Protocolos de seguridad activos",
+            "containmentCheck": "Verificación de contención: Todos los sectores nominales",
+            "monitoring": "Monitoreando cámara SCP-173",
+            "personnelShift": "Cambio de turno del personal registrado",
+            "backupOperational": "Sistemas de respaldo operacionales",
+            "scanningAnomalies": "Escaneando anomalías",
+            "securitySweep": "Barrido de seguridad completado",
+            "anomalyDetected": "Anomalía de contención menor detectada - Investigando",
+            "userAuth": "Autenticación de usuario exitosa",
+            "guestAccess": "Acceso de invitado concedido - Autorización limitada",
+            "userLogout": "Usuario cerró sesión",
+            "accessingSection": "Accediendo a sección"
+        },
+        "settings": {
+            "title": "[ PANEL DE AJUSTES ]",
+            "language": "Idioma",
+            "languageDesc": "Cambiar idioma de la interfaz",
+            "spanish": "Español",
+            "english": "Inglés",
+            "theme": "Tema Visual",
+            "themeDesc": "Personalizar esquema de colores",
+            "greenClassic": "Verde Clásico",
+            "amberRetro": "Ámbar Retro",
+            "blueModern": "Azul Moderno",
+            "redAlert": "Alerta Roja",
+            "effects": "Efectos Visuales",
+            "effectsDesc": "Activar/desactivar efectos de pantalla",
+            "crtEffect": "Efecto CRT",
+            "scanlines": "Líneas de escaneo",
+            "glitchEffect": "Efecto Glitch",
+            "gridBackground": "Fondo de cuadrícula",
+            "animations": "Animaciones",
+            "animationsDesc": "Controlar velocidad de animaciones",
+            "sound": "Sonido",
+            "soundDesc": "Efectos de sonido de la interfaz",
+            "soundEffects": "Efectos de sonido",
+            "ambientSound": "Sonido ambiental",
+            "accessibility": "Accesibilidad",
+            "accessibilityDesc": "Opciones de accesibilidad",
+            "highContrast": "Alto contraste",
+            "reducedMotion": "Movimiento reducido",
+            "saveSettings": "[ GUARDAR AJUSTES ]",
+            "resetSettings": "[ RESTABLECER VALORES ]",
+            "settingsSaved": "Ajustes guardados correctamente"
+        },
+        "modal": {
+            "close": "×",
+            "description": "DESCRIPCIÓN:",
+            "containment": "PROCEDIMIENTOS ESPECIALES DE CONTENCIÓN:",
+            "addendum": "ADDENDUM:",
+            "furtherClassified": "[INFORMACIÓN ADICIONAL CLASIFICADA]"
+        }
+    },
+    "en": {
+        "header": {
+            "title": "█ SCP FOUNDATION █",
+            "subtitle": "SECURE. CONTAIN. PROTECT."
+        },
+        "login": {
+            "warning": "⚠ AUTHORIZED PERSONNEL ONLY ⚠",
+            "title": "[ SECURE ACCESS TERMINAL ]",
+            "classified": "CLEARANCE LEVEL REQUIRED",
+            "employeeId": "> EMPLOYEE ID:",
+            "securityCode": "> SECURITY CODE:",
+            "employeeIdPlaceholder": "Enter employee ID...",
+            "securityCodePlaceholder": "Enter security code...",
+            "authenticate": "[ AUTHENTICATE ]",
+            "guestAccess": "[ GUEST ACCESS ]",
+            "securityNotice": "SECURITY NOTICE:",
+            "securityLine1": "All access attempts are logged and monitored.",
+            "securityLine2": "Unauthorized access will result in immediate termination."
+        },
+        "nav": {
+            "database": "SCP DATABASE",
+            "personnel": "PERSONNEL",
+            "incidents": "INCIDENTS",
+            "logs": "SYSTEM LOGS",
+            "settings": "SETTINGS",
+            "logout": "LOGOUT"
+        },
+        "database": {
+            "title": "[ SCP DATABASE ]",
+            "class": "CLASS",
+            "objectClass": "OBJECT CLASS"
+        },
+        "personnel": {
+            "title": "[ PERSONNEL DIRECTORY ]",
+            "id": "ID",
+            "name": "NAME",
+            "clearance": "CLEARANCE",
+            "department": "DEPARTMENT",
+            "status": "STATUS",
+            "online": "ONLINE",
+            "offline": "OFFLINE",
+            "mission": "MISSION"
+        },
+        "incidents": {
+            "title": "[ INCIDENT REPORTS ]",
+            "clearanceRequired": "⚠ LEVEL 4 CLEARANCE REQUIRED ⚠",
+            "severity": "SEVERITY",
+            "subject": "Subject"
+        },
+        "logs": {
+            "title": "[ SYSTEM ACTIVITY LOG ]",
+            "systemInit": "System initialized",
+            "databaseOnline": "Foundation database online",
+            "securityActive": "Security protocols active",
+            "containmentCheck": "Containment check: All sectors nominal",
+            "monitoring": "Monitoring SCP-173 chamber",
+            "personnelShift": "Personnel shift change logged",
+            "backupOperational": "Backup systems operational",
+            "scanningAnomalies": "Scanning for anomalies",
+            "securitySweep": "Security sweep completed",
+            "anomalyDetected": "Minor containment anomaly detected - Investigating",
+            "userAuth": "User authentication successful",
+            "guestAccess": "Guest access granted - Limited clearance",
+            "userLogout": "User logged out",
+            "accessingSection": "Accessing section"
+        },
+        "settings": {
+            "title": "[ SETTINGS PANEL ]",
+            "language": "Language",
+            "languageDesc": "Change interface language",
+            "spanish": "Spanish",
+            "english": "English",
+            "theme": "Visual Theme",
+            "themeDesc": "Customize color scheme",
+            "greenClassic": "Classic Green",
+            "amberRetro": "Retro Amber",
+            "blueModern": "Modern Blue",
+            "redAlert": "Red Alert",
+            "effects": "Visual Effects",
+            "effectsDesc": "Enable/disable screen effects",
+            "crtEffect": "CRT Effect",
+            "scanlines": "Scanlines",
+            "glitchEffect": "Glitch Effect",
+            "gridBackground": "Grid Background",
+            "animations": "Animations",
+            "animationsDesc": "Control animation speed",
+            "sound": "Sound",
+            "soundDesc": "Interface sound effects",
+            "soundEffects": "Sound effects",
+            "ambientSound": "Ambient sound",
+            "accessibility": "Accessibility",
+            "accessibilityDesc": "Accessibility options",
+            "highContrast": "High contrast",
+            "reducedMotion": "Reduced motion",
+            "saveSettings": "[ SAVE SETTINGS ]",
+            "resetSettings": "[ RESET DEFAULTS ]",
+            "settingsSaved": "Settings saved successfully"
+        },
+        "modal": {
+            "close": "×",
+            "description": "DESCRIPTION:",
+            "containment": "SPECIAL CONTAINMENT PROCEDURES:",
+            "addendum": "ADDENDUM:",
+            "furtherClassified": "[FURTHER INFORMATION CLASSIFIED]"
+        }
+    }
+}
