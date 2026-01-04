@@ -1,58 +1,58 @@
 [
     {
         "id": "042-Theta",
-        "name": "Dr. Sarah Chen",
-        "clearance": "Level 4",
-        "department": "Research",
+        "name": "Dra. Sarah Chen",
+        "clearance": "Nivel 4",
+        "department": "Investigación",
         "status": "online"
     },
     {
         "id": "138-Omega",
-        "name": "Agent Marcus Cole",
-        "clearance": "Level 3",
-        "department": "Security",
+        "name": "Agente Marcus Cole",
+        "clearance": "Nivel 3",
+        "department": "Seguridad",
         "status": "mission"
     },
     {
         "id": "267-Alpha",
         "name": "Dr. James Rodriguez",
-        "clearance": "Level 4",
-        "department": "Containment",
+        "clearance": "Nivel 4",
+        "department": "Contención",
         "status": "online"
     },
     {
         "id": "391-Beta",
-        "name": "Researcher Emma Wilson",
-        "clearance": "Level 2",
-        "department": "Documentation",
+        "name": "Investigadora Emma Wilson",
+        "clearance": "Nivel 2",
+        "department": "Documentación",
         "status": "online"
     },
     {
         "id": "512-Gamma",
         "name": "Dir. Alexander Hunt",
-        "clearance": "Level 5",
-        "department": "Administration",
+        "clearance": "Nivel 5",
+        "department": "Administración",
         "status": "online"
     },
     {
         "id": "629-Delta",
         "name": "Dr. Michael Zhang",
-        "clearance": "Level 3",
-        "department": "Medical",
+        "clearance": "Nivel 3",
+        "department": "Médico",
         "status": "offline"
     },
     {
         "id": "784-Epsilon",
-        "name": "Agent Sofia Petrov",
-        "clearance": "Level 3",
-        "department": "Mobile Task Force",
+        "name": "Agente Sofia Petrov",
+        "clearance": "Nivel 3",
+        "department": "Fuerza de Tarea Móvil",
         "status": "mission"
     },
     {
         "id": "893-Zeta",
-        "name": "Tech. David Kim",
-        "clearance": "Level 2",
-        "department": "Engineering",
+        "name": "Téc. David Kim",
+        "clearance": "Nivel 2",
+        "department": "Ingeniería",
         "status": "online"
     }
 ]
