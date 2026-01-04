@@ -304,33 +304,72 @@ function showSCPDetails(number) {
     const modal = document.getElementById('scpModal');
     const content = document.getElementById('modalContent');
     
-    const objectClassText = getTranslation('database.objectClass');
-    const descriptionText = getTranslation('modal.description');
-    const containmentText = getTranslation('modal.containment');
-    const addendumText = getTranslation('modal.addendum');
     const classifiedText = getTranslation('modal.furtherClassified');
+    
+    // Build sections HTML
+    let sectionsHTML = '';
+    
+    if (scp.sections && scp.sections.length > 0) {
+        // New flexible structure
+        sectionsHTML = scp.sections.map(section => {
+            // Process content: convert \n to <br> and • to bullet points
+            let processedContent = section.content
+                .replace(/\n\n/g, '</p><p>')  // Double line break = new paragraph
+                .replace(/\n/g, '<br>')        // Single line break = <br>
+                .replace(/^• /gm, '<li>')      // Bullet points
+                .replace(/<br>• /g, '<li>');   // Bullet points after line breaks
+            
+            // If we have bullet points, wrap them in a list
+            if (processedContent.includes('<li>')) {
+                const parts = processedContent.split(/<li>/);
+                processedContent = parts[0]; // Content before list
+                if (parts.length > 1) {
+                    processedContent += '<ul>';
+                    for (let i = 1; i < parts.length; i++) {
+                        processedContent += '<li>' + parts[i].replace(/<br>/g, '') + '</li>';
+                    }
+                    processedContent += '</ul>';
+                }
+            }
+            
+            return `
+                <div class="info-section">
+                    <h3>${section.title}</h3>
+                    <p>${processedContent}</p>
+                </div>
+            `;
+        }).join('');
+    } else {
+        // Old structure (backwards compatibility)
+        const descriptionText = getTranslation('modal.description');
+        const containmentText = getTranslation('modal.containment');
+        const addendumText = getTranslation('modal.addendum');
+        
+        sectionsHTML = `
+            <div class="info-section">
+                <h3>${descriptionText}</h3>
+                <p>${scp.description}</p>
+            </div>
+            
+            <div class="info-section">
+                <h3>${containmentText}</h3>
+                <p>${scp.containment}</p>
+                <p>${scp.procedures}</p>
+            </div>
+            
+            <div class="info-section">
+                <h3>${addendumText}</h3>
+                <p>${scp.addendum}</p>
+            </div>
+        `;
+    }
     
     content.innerHTML = `
         <span class="modal-close" onclick="closeModal()">&times;</span>
         <h2 style="font-size: 42px; color: var(--warning-red); margin-bottom: 20px;">${scp.number}</h2>
         <h3 style="font-size: 32px; color: var(--scp-blue); margin-bottom: 20px;">"${scp.name}"</h3>
-        <div class="scp-class ${scp.class}" style="font-size: 24px;">${objectClassText}: ${scp.class.toUpperCase()}</div>
         
-        <div class="info-section">
-            <h3>${descriptionText}</h3>
-            <p>${scp.description}</p>
-        </div>
-        
-        <div class="info-section">
-            <h3>${containmentText}</h3>
-            <p>${scp.containment}</p>
-            <p>${scp.procedures}</p>
-        </div>
-        
-        <div class="info-section">
-            <h3>${addendumText}</h3>
-            <p>${scp.addendum}</p>
-        </div>
+        ${sectionsHTML}
         
         <div class="classified">
             ${classifiedText}
