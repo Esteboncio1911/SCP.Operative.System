@@ -1,0 +1,30 @@
+[
+    {
+        "id": "INC-173-A",
+        "date": "2024-11-15",
+        "subject": "SCP-173",
+        "severity": "HIGH",
+        "description": "Containment breach during routine maintenance. Subject terminated 2 personnel before recontainment. Security protocols updated."
+    },
+    {
+        "id": "INC-682-B",
+        "date": "2024-10-28",
+        "subject": "SCP-682",
+        "severity": "CRITICAL",
+        "description": "SCP-682 adapted to acid containment, requiring emergency protocol Zeta-9. Subject neutralized after 6 hours. Casualty count: 12."
+    },
+    {
+        "id": "INC-096-C",
+        "date": "2024-09-03",
+        "subject": "SCP-096",
+        "severity": "MEDIUM",
+        "description": "Subject's face accidentally photographed by surveillance system. Affected personnel neutralized before full breach. Camera systems updated."
+    },
+    {
+        "id": "INC-106-D",
+        "date": "2024-12-01",
+        "subject": "SCP-106",
+        "severity": "HIGH",
+        "description": "SCP-106 escaped containment through corroded wall section. Lure protocol initiated successfully. 4 personnel MIA, presumed deceased."
+    }
+]
