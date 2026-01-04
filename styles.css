@@ -706,18 +706,16 @@ body::before {
 .info-section ul {
     font-size: 20px;
     line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.info-section p:last-child {
+    margin-bottom: 0;
 }
 
 .info-section ul {
     list-style-position: inside;
     margin-top: 10px;
-}
-
-/* Add spacing between paragraphs created with <p> tag */
-.info-section p p {
-    display: block;
-    margin-top: 40px;
-    margin-bottom: 15px;
 }
 
 .classified {
