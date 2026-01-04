@@ -11,35 +11,35 @@
     
     <div class="screen">
         <div class="terminal-header">
-            <h1>█ SCP FOUNDATION █</h1>
-            <div class="subtitle">SECURE. CONTAIN. PROTECT.</div>
+            <h1 data-i18n="header.title">█ SCP FOUNDATION █</h1>
+            <div class="subtitle" data-i18n="header.subtitle">SECURE. CONTAIN. PROTECT.</div>
         </div>
         
         <!-- Login Screen -->
         <div class="login-screen" id="loginScreen">
-            <div class="warning-banner">
+            <div class="warning-banner" data-i18n="login.warning">
                 ⚠ AUTHORIZED PERSONNEL ONLY ⚠
             </div>
-            <h2>[ SECURE ACCESS TERMINAL ]</h2>
-            <div class="classified">CLEARANCE LEVEL REQUIRED</div>
+            <h2 data-i18n="login.title">[ SECURE ACCESS TERMINAL ]</h2>
+            <div class="classified" data-i18n="login.classified">CLEARANCE LEVEL REQUIRED</div>
             
             <form class="login-form" onsubmit="return login(event)">
                 <div class="form-group">
-                    <label for="username">> EMPLOYEE ID:</label>
-                    <input type="text" id="username" placeholder="Enter employee ID..." required>
+                    <label for="username" data-i18n="login.employeeId">> EMPLOYEE ID:</label>
+                    <input type="text" id="username" data-i18n-placeholder="login.employeeIdPlaceholder" placeholder="Enter employee ID..." required>
                 </div>
                 <div class="form-group">
-                    <label for="password">> SECURITY CODE:</label>
-                    <input type="password" id="password" placeholder="Enter security code..." required>
+                    <label for="password" data-i18n="login.securityCode">> SECURITY CODE:</label>
+                    <input type="password" id="password" data-i18n-placeholder="login.securityCodePlaceholder" placeholder="Enter security code..." required>
                 </div>
-                <button type="submit" class="btn">[ AUTHENTICATE ]</button>
-                <button type="button" class="btn" onclick="guestAccess()" style="background: var(--warning-yellow); margin-top: 15px;">[ GUEST ACCESS ]</button>
+                <button type="submit" class="btn"><span data-i18n="login.authenticate">[ AUTHENTICATE ]</span></button>
+                <button type="button" class="btn" onclick="guestAccess()" style="background: var(--warning-yellow); margin-top: 15px;"><span data-i18n="login.guestAccess">[ GUEST ACCESS ]</span></button>
             </form>
             
             <div style="margin-top: 30px; font-size: 18px; color: var(--scp-blue);">
-                <p>SECURITY NOTICE:</p>
-                <p>All access attempts are logged and monitored.</p>
-                <p>Unauthorized access will result in immediate termination.</p>
+                <p data-i18n="login.securityNotice">SECURITY NOTICE:</p>
+                <p data-i18n="login.securityLine1">All access attempts are logged and monitored.</p>
+                <p data-i18n="login.securityLine2">Unauthorized access will result in immediate termination.</p>
             </div>
         </div>
         
@@ -56,21 +56,21 @@
             
             <!-- SCP Database -->
             <div class="content-section active" id="database">
-                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);">[ SCP DATABASE ]</h2>
+                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);" data-i18n="database.title">[ SCP DATABASE ]</h2>
                 <div class="scp-list" id="scpList"></div>
             </div>
             
             <!-- Personnel -->
             <div class="content-section" id="personnel">
-                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);">[ PERSONNEL DIRECTORY ]</h2>
+                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);" data-i18n="personnel.title">[ PERSONNEL DIRECTORY ]</h2>
                 <table class="personnel-table">
                     <thead>
                         <tr>
-                            <th>ID</th>
-                            <th>NAME</th>
-                            <th>CLEARANCE</th>
-                            <th>DEPARTMENT</th>
-                            <th>STATUS</th>
+                            <th data-i18n="personnel.id">ID</th>
+                            <th data-i18n="personnel.name">NAME</th>
+                            <th data-i18n="personnel.clearance">CLEARANCE</th>
+                            <th data-i18n="personnel.department">DEPARTMENT</th>
+                            <th data-i18n="personnel.status">STATUS</th>
                         </tr>
                     </thead>
                     <tbody id="personnelList"></tbody>
@@ -79,8 +79,8 @@
             
             <!-- Incidents -->
             <div class="content-section" id="incidents">
-                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);">[ INCIDENT REPORTS ]</h2>
-                <div class="classified" style="margin: 20px 0;">
+                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);" data-i18n="incidents.title">[ INCIDENT REPORTS ]</h2>
+                <div class="classified" style="margin: 20px 0;" data-i18n="incidents.clearanceRequired">
                     ⚠ LEVEL 4 CLEARANCE REQUIRED ⚠
                 </div>
                 <div id="incidentsList"></div>
