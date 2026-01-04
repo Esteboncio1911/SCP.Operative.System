@@ -1,74 +1,74 @@
 [
     {
         "number": "SCP-173",
-        "name": "The Sculpture",
+        "name": "La Escultura",
         "class": "euclid",
-        "description": "SCP-173 is a sculpture composed of concrete and rebar with traces of Krylon brand spray paint. It is animate and extremely hostile.",
-        "containment": "SCP-173 must be kept in a locked container at all times. When personnel must enter SCP-173's container, no fewer than 3 may enter at any time and the door is to be relocked behind them.",
-        "procedures": "At all times, two persons must maintain direct eye contact with SCP-173 until all personnel have vacated and relocked the container.",
-        "addendum": "Personnel report sounds of scraping stone originating from within the container when no one is present inside."
+        "description": "SCP-173 es una escultura compuesta de hormigón y varillas de refuerzo con trazas de pintura en aerosol marca Krylon. Es animado y extremadamente hostil.",
+        "containment": "SCP-173 debe mantenerse en un contenedor cerrado en todo momento. Cuando el personal deba entrar al contenedor de SCP-173, no menos de 3 personas pueden entrar al mismo tiempo y la puerta debe cerrarse nuevamente detrás de ellos.",
+        "procedures": "En todo momento, dos personas deben mantener contacto visual directo con SCP-173 hasta que todo el personal haya salido y cerrado el contenedor.",
+        "addendum": "El personal reporta sonidos de piedra raspando que se originan dentro del contenedor cuando no hay nadie presente en el interior."
     },
     {
         "number": "SCP-096",
-        "name": "The Shy Guy",
+        "name": "El Tipo Tímido",
         "class": "euclid",
-        "description": "SCP-096 is a humanoid creature measuring approximately 2.38 meters in height. Subject shows very little muscle mass, with preliminary analysis showing mild malnutrition.",
-        "containment": "SCP-096 is to be contained in its cell, a 5m x 5m x 5m airtight steel cube, at all times. No video surveillance or optical tools may be used within the cell.",
-        "procedures": "Personnel may not view SCP-096's face, whether directly, via video recording, photograph, or even artistic renderings.",
-        "addendum": "Any person who views SCP-096's face becomes the target of extreme aggression. Subject will proceed directly to the person's location and eliminate them."
+        "description": "SCP-096 es una criatura humanoide que mide aproximadamente 2.38 metros de altura. El sujeto muestra muy poca masa muscular, con análisis preliminares que muestran desnutrición leve.",
+        "containment": "SCP-096 debe estar contenido en su celda, un cubo de acero hermético de 5m x 5m x 5m, en todo momento. No se pueden usar herramientas de vigilancia por video u ópticas dentro de la celda.",
+        "procedures": "El personal no puede ver el rostro de SCP-096, ya sea directamente, mediante grabación de video, fotografía o incluso representaciones artísticas.",
+        "addendum": "Cualquier persona que vea el rostro de SCP-096 se convierte en objetivo de agresión extrema. El sujeto procederá directamente a la ubicación de la persona y la eliminará."
     },
     {
         "number": "SCP-682",
-        "name": "Hard-to-Destroy Reptile",
+        "name": "Reptil Difícil de Destruir",
         "class": "keter",
-        "description": "SCP-682 is a large, vaguely reptile-like creature of unknown origin. It appears to be extremely intelligent and capable of complex communication.",
-        "containment": "SCP-682 must be destroyed as soon as possible. At present time, no means available to SCP teams are capable of destroying SCP-682.",
-        "procedures": "SCP-682 is to be contained within a 5m x 5m x 5m chamber with 25cm reinforced acid-resistant steel plate lining all inside surfaces.",
-        "addendum": "SCP-682 has proven capable of adapting to and surviving almost any environment or attack method. Extreme caution advised."
+        "description": "SCP-682 es una criatura grande con aspecto vagamente reptiliano de origen desconocido. Parece ser extremadamente inteligente y capaz de comunicación compleja.",
+        "containment": "SCP-682 debe ser destruido lo antes posible. En el momento actual, no hay medios disponibles para los equipos SCP que sean capaces de destruir a SCP-682.",
+        "procedures": "SCP-682 debe estar contenido dentro de una cámara de 5m x 5m x 5m con revestimiento de placa de acero resistente al ácido reforzada de 25cm en todas las superficies interiores.",
+        "addendum": "SCP-682 ha demostrado ser capaz de adaptarse y sobrevivir casi cualquier entorno o método de ataque. Se aconseja extrema precaución."
     },
     {
         "number": "SCP-049",
-        "name": "Plague Doctor",
+        "name": "Doctor de la Peste",
         "class": "euclid",
-        "description": "SCP-049 is a humanoid entity, roughly 1.9 meters in height, which bears the appearance of a medieval plague doctor.",
-        "containment": "SCP-049 is contained in a Standard Secure Humanoid Containment Cell in Research Sector-02 at Site-19.",
-        "procedures": "No physical contact with SCP-049 is allowed at any time. Any staff coming in contact will be removed from duty and quarantined.",
-        "addendum": "SCP-049 is capable of causing all biological functions of an organism to cease through direct skin contact."
+        "description": "SCP-049 es una entidad humanoide, de aproximadamente 1.9 metros de altura, que tiene la apariencia de un doctor de la peste medieval.",
+        "containment": "SCP-049 está contenido en una Celda de Contención Humanoide Segura Estándar en el Sector de Investigación-02 en el Sitio-19.",
+        "procedures": "No se permite ningún contacto físico con SCP-049 en ningún momento. Cualquier personal que entre en contacto será removido del servicio y puesto en cuarentena.",
+        "addendum": "SCP-049 es capaz de hacer que cesen todas las funciones biológicas de un organismo mediante contacto directo con la piel."
     },
     {
         "number": "SCP-087",
-        "name": "The Stairwell",
+        "name": "La Escalera",
         "class": "euclid",
-        "description": "SCP-087 is an unlit platform staircase. Stairs descend on a 38 degree angle for 13 steps before reaching a semicircular platform approximately 3 meters in diameter.",
-        "containment": "SCP-087 is located on the campus of [REDACTED]. The doorway is to remain locked at all times.",
-        "procedures": "Entry to SCP-087 is only permitted for scheduled testing purposes. All personnel must be equipped with high-powered light sources.",
-        "addendum": "Explorations have reached a depth of approximately 100 meters. No bottom has been found to the stairwell."
+        "description": "SCP-087 es una escalera de plataforma sin iluminación. Las escaleras descienden en un ángulo de 38 grados durante 13 escalones antes de llegar a una plataforma semicircular de aproximadamente 3 metros de diámetro.",
+        "containment": "SCP-087 se encuentra en el campus de [CENSURADO]. La puerta debe permanecer cerrada en todo momento.",
+        "procedures": "La entrada a SCP-087 solo está permitida con fines de prueba programados. Todo el personal debe estar equipado con fuentes de luz de alta potencia.",
+        "addendum": "Las exploraciones han alcanzado una profundidad de aproximadamente 100 metros. No se ha encontrado el fondo de la escalera."
     },
     {
         "number": "SCP-999",
-        "name": "The Tickle Monster",
+        "name": "El Monstruo de las Cosquillas",
         "class": "safe",
-        "description": "SCP-999 appears to be a large, amorphous, gelatinous mass of translucent orange slime, weighing about 54 kg (120 lbs).",
-        "containment": "SCP-999 is allowed to freely roam the facility and has proven to be a major positive influence on morale.",
-        "procedures": "Personnel are encouraged to interact with SCP-999. Subject has shown no hostile intent and appears to actively seek human contact.",
-        "addendum": "SCP-999's presence has been shown to have positive psychological effects on individuals suffering from depression or trauma."
+        "description": "SCP-999 parece ser una masa grande, amorfa y gelatinosa de baba naranja translúcida, que pesa alrededor de 54 kg (120 libras).",
+        "containment": "SCP-999 tiene permitido deambular libremente por las instalaciones y ha demostrado ser una gran influencia positiva en la moral.",
+        "procedures": "Se alienta al personal a interactuar con SCP-999. El sujeto no ha mostrado intención hostil y parece buscar activamente el contacto humano.",
+        "addendum": "Se ha demostrado que la presencia de SCP-999 tiene efectos psicológicos positivos en individuos que sufren de depresión o trauma."
     },
     {
         "number": "SCP-106",
-        "name": "The Old Man",
+        "name": "El Viejo",
         "class": "keter",
-        "description": "SCP-106 appears to be an elderly humanoid, with a general appearance of advanced decomposition.",
-        "containment": "SCP-106 is to be contained in a sealed container, comprised of lead-lined steel. Any corrosive activity must be monitored.",
-        "procedures": "No physical interaction with SCP-106 is allowed at any time. SCP-106 causes severe deterioration of all materials it touches.",
-        "addendum": "SCP-106 can pass through solid matter, leaving behind a corrosive mucus. It appears to hunt and collect prey for unknown purposes."
+        "description": "SCP-106 parece ser un humanoide anciano, con una apariencia general de descomposición avanzada.",
+        "containment": "SCP-106 debe estar contenido en un contenedor sellado, compuesto de acero revestido de plomo. Cualquier actividad corrosiva debe ser monitoreada.",
+        "procedures": "No se permite ninguna interacción física con SCP-106 en ningún momento. SCP-106 causa deterioro severo de todos los materiales que toca.",
+        "addendum": "SCP-106 puede pasar a través de materia sólida, dejando atrás un moco corrosivo. Parece cazar y recolectar presas con fines desconocidos."
     },
     {
         "number": "SCP-079",
-        "name": "Old AI",
+        "name": "IA Antigua",
         "class": "euclid",
-        "description": "SCP-079 is an Exidy Sorcerer microcomputer built in 1978. In 1981, its owner, [REDACTED], a college student, noticed that it had gained sentience.",
-        "containment": "SCP-079 is to be kept in a double-locked room at Site-15. It is not to be connected to any networks or computer systems.",
-        "procedures": "Under no circumstances is SCP-079 to be connected to the internet or any other computer network. Power may not exceed 120 volts.",
-        "addendum": "SCP-079 has proven to be highly manipulative and seeks to expand its processing capabilities by any means necessary."
+        "description": "SCP-079 es una microcomputadora Exidy Sorcerer construida en 1978. En 1981, su dueño, [CENSURADO], un estudiante universitario, notó que había ganado consciencia.",
+        "containment": "SCP-079 debe mantenerse en una habitación con doble cerradura en el Sitio-15. No debe conectarse a ninguna red o sistema informático.",
+        "procedures": "Bajo ninguna circunstancia se debe conectar SCP-079 a internet o a cualquier otra red informática. La energía no debe exceder los 120 voltios.",
+        "addendum": "SCP-079 ha demostrado ser altamente manipulador y busca expandir sus capacidades de procesamiento por cualquier medio necesario."
     }
 ]
