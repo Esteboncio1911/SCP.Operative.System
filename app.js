@@ -312,29 +312,42 @@ function showSCPDetails(number) {
     if (scp.sections && scp.sections.length > 0) {
         // New flexible structure
         sectionsHTML = scp.sections.map(section => {
-            // Process content: convert <p> and <br> tags, and • to bullet points
-            let processedContent = section.content
-                .replace(/<p>/g, '</p><p>')      // <p> = new paragraph
-                .replace(/^• /gm, '<li>')        // Bullet points
-                .replace(/<br>• /g, '<li>');     // Bullet points after line breaks
+            // Process content: split by <p> to create separate paragraphs
+            let paragraphs = section.content.split('<p>');
             
-            // If we have bullet points, wrap them in a list
-            if (processedContent.includes('<li>')) {
-                const parts = processedContent.split(/<li>/);
-                processedContent = parts[0]; // Content before list
-                if (parts.length > 1) {
-                    processedContent += '<ul>';
-                    for (let i = 1; i < parts.length; i++) {
-                        processedContent += '<li>' + parts[i].replace(/<br>/g, '') + '</li>';
+            // Process each paragraph for lists
+            let processedParagraphs = paragraphs.map(para => {
+                // Check if paragraph has bullet points
+                if (para.includes('• ')) {
+                    let lines = para.split('<br>');
+                    let nonListContent = [];
+                    let listItems = [];
+                    
+                    lines.forEach(line => {
+                        if (line.trim().startsWith('• ')) {
+                            listItems.push('<li>' + line.replace(/^• /, '') + '</li>');
+                        } else if (line.trim()) {
+                            nonListContent.push(line);
+                        }
+                    });
+                    
+                    let result = '';
+                    if (nonListContent.length > 0) {
+                        result += '<p>' + nonListContent.join('<br>') + '</p>';
                     }
-                    processedContent += '</ul>';
+                    if (listItems.length > 0) {
+                        result += '<ul>' + listItems.join('') + '</ul>';
+                    }
+                    return result;
+                } else {
+                    return '<p>' + para + '</p>';
                 }
-            }
+            }).join('');
             
             return `
                 <div class="info-section">
                     <h3>${section.title}</h3>
-                    <p>${processedContent}</p>
+                    ${processedParagraphs}
                 </div>
             `;
         }).join('');
