@@ -46,11 +46,12 @@
         <!-- Main Interface -->
         <div class="main-interface" id="mainInterface">
             <div class="nav-menu">
-                <button class="nav-btn active" onclick="showSection('database')">SCP DATABASE</button>
-                <button class="nav-btn" onclick="showSection('personnel')">PERSONNEL</button>
-                <button class="nav-btn" onclick="showSection('incidents')">INCIDENTS</button>
-                <button class="nav-btn" onclick="showSection('logs')">SYSTEM LOGS</button>
-                <button class="nav-btn" onclick="logout()" style="margin-left: auto; border-color: var(--warning-red); color: var(--warning-red);">LOGOUT</button>
+                <button class="nav-btn active" onclick="showSection('database')"><span data-i18n="nav.database">SCP DATABASE</span></button>
+                <button class="nav-btn" onclick="showSection('personnel')"><span data-i18n="nav.personnel">PERSONNEL</span></button>
+                <button class="nav-btn" onclick="showSection('incidents')"><span data-i18n="nav.incidents">INCIDENTS</span></button>
+                <button class="nav-btn" onclick="showSection('logs')"><span data-i18n="nav.logs">SYSTEM LOGS</span></button>
+                <button class="nav-btn" onclick="showSection('settings')"><span data-i18n="nav.settings">SETTINGS</span></button>
+                <button class="nav-btn" onclick="logout()" style="margin-left: auto; border-color: var(--warning-red); color: var(--warning-red);"><span data-i18n="nav.logout">LOGOUT</span></button>
             </div>
             
             <!-- SCP Database -->
@@ -87,8 +88,97 @@
             
             <!-- System Logs -->
             <div class="content-section" id="logs">
-                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);">[ SYSTEM ACTIVITY LOG ]</h2>
+                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);" data-i18n="logs.title">[ SYSTEM ACTIVITY LOG ]</h2>
                 <div class="system-log" id="systemLog"></div>
+            </div>
+            
+            <!-- Settings -->
+            <div class="content-section" id="settings">
+                <h2 style="font-size: 36px; margin-bottom: 20px; color: var(--warning-yellow);" data-i18n="settings.title">[ SETTINGS PANEL ]</h2>
+                
+                <div class="settings-container">
+                    <!-- Language Settings -->
+                    <div class="settings-group">
+                        <div class="settings-header">
+                            <h3 data-i18n="settings.language">Language</h3>
+                            <p data-i18n="settings.languageDesc">Change interface language</p>
+                        </div>
+                        <div class="settings-options">
+                            <button class="setting-btn active" onclick="changeLanguage('es')" id="lang-es">
+                                <span data-i18n="settings.spanish">Español</span>
+                            </button>
+                            <button class="setting-btn" onclick="changeLanguage('en')" id="lang-en">
+                                <span data-i18n="settings.english">English</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Theme Settings -->
+                    <div class="settings-group">
+                        <div class="settings-header">
+                            <h3 data-i18n="settings.theme">Visual Theme</h3>
+                            <p data-i18n="settings.themeDesc">Customize color scheme</p>
+                        </div>
+                        <div class="settings-options">
+                            <button class="setting-btn theme-btn active" onclick="changeTheme('green')" id="theme-green">
+                                <span class="theme-preview" style="background: #00ff41;"></span>
+                                <span data-i18n="settings.greenClassic">Classic Green</span>
+                            </button>
+                            <button class="setting-btn theme-btn" onclick="changeTheme('amber')" id="theme-amber">
+                                <span class="theme-preview" style="background: #ffb000;"></span>
+                                <span data-i18n="settings.amberRetro">Retro Amber</span>
+                            </button>
+                            <button class="setting-btn theme-btn" onclick="changeTheme('blue')" id="theme-blue">
+                                <span class="theme-preview" style="background: #00d4ff;"></span>
+                                <span data-i18n="settings.blueModern">Modern Blue</span>
+                            </button>
+                            <button class="setting-btn theme-btn" onclick="changeTheme('red')" id="theme-red">
+                                <span class="theme-preview" style="background: #ff0040;"></span>
+                                <span data-i18n="settings.redAlert">Red Alert</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Visual Effects -->
+                    <div class="settings-group">
+                        <div class="settings-header">
+                            <h3 data-i18n="settings.effects">Visual Effects</h3>
+                            <p data-i18n="settings.effectsDesc">Enable/disable screen effects</p>
+                        </div>
+                        <div class="settings-toggles">
+                            <label class="toggle-option">
+                                <input type="checkbox" id="toggle-crt" checked onchange="toggleEffect('crt')">
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-label" data-i18n="settings.crtEffect">CRT Effect</span>
+                            </label>
+                            <label class="toggle-option">
+                                <input type="checkbox" id="toggle-scanlines" checked onchange="toggleEffect('scanlines')">
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-label" data-i18n="settings.scanlines">Scanlines</span>
+                            </label>
+                            <label class="toggle-option">
+                                <input type="checkbox" id="toggle-glitch" checked onchange="toggleEffect('glitch')">
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-label" data-i18n="settings.glitchEffect">Glitch Effect</span>
+                            </label>
+                            <label class="toggle-option">
+                                <input type="checkbox" id="toggle-grid" checked onchange="toggleEffect('grid')">
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-label" data-i18n="settings.gridBackground">Grid Background</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Save Button -->
+                    <div class="settings-actions">
+                        <button class="btn" onclick="saveSettings()">
+                            <span data-i18n="settings.saveSettings">[ SAVE SETTINGS ]</span>
+                        </button>
+                        <button class="btn" onclick="resetSettings()" style="background: var(--warning-red); margin-top: 15px;">
+                            <span data-i18n="settings.resetSettings">[ RESET DEFAULTS ]</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
