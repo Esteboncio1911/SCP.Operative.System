@@ -1,0 +1,58 @@
+[
+    {
+        "id": "042-Theta",
+        "name": "Dr. Sarah Chen",
+        "clearance": "Level 4",
+        "department": "Research",
+        "status": "online"
+    },
+    {
+        "id": "138-Omega",
+        "name": "Agent Marcus Cole",
+        "clearance": "Level 3",
+        "department": "Security",
+        "status": "mission"
+    },
+    {
+        "id": "267-Alpha",
+        "name": "Dr. James Rodriguez",
+        "clearance": "Level 4",
+        "department": "Containment",
+        "status": "online"
+    },
+    {
+        "id": "391-Beta",
+        "name": "Researcher Emma Wilson",
+        "clearance": "Level 2",
+        "department": "Documentation",
+        "status": "online"
+    },
+    {
+        "id": "512-Gamma",
+        "name": "Dir. Alexander Hunt",
+        "clearance": "Level 5",
+        "department": "Administration",
+        "status": "online"
+    },
+    {
+        "id": "629-Delta",
+        "name": "Dr. Michael Zhang",
+        "clearance": "Level 3",
+        "department": "Medical",
+        "status": "offline"
+    },
+    {
+        "id": "784-Epsilon",
+        "name": "Agent Sofia Petrov",
+        "clearance": "Level 3",
+        "department": "Mobile Task Force",
+        "status": "mission"
+    },
+    {
+        "id": "893-Zeta",
+        "name": "Tech. David Kim",
+        "clearance": "Level 2",
+        "department": "Engineering",
+        "status": "online"
+    }
+]
