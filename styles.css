@@ -713,6 +713,12 @@ body::before {
     margin-top: 10px;
 }
 
+/* Add spacing between paragraphs created with <p> tag */
+.info-section p p {
+    display: block;
+    margin-top: 20px;
+}
+
 .classified {
     background: rgba(0, 0, 0, 0.9);
     padding: 15px;
