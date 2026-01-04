@@ -312,10 +312,10 @@ function showSCPDetails(number) {
     if (scp.sections && scp.sections.length > 0) {
         // New flexible structure
         sectionsHTML = scp.sections.map(section => {
-            // Process content: convert \n to <br> and • to bullet points
+            // Process content: convert /n to <br> and • to bullet points
             let processedContent = section.content
-                .replace(/\n\n/g, '</p><p>')  // Double line break = new paragraph
-                .replace(/\n/g, '<br>')        // Single line break = <br>
+                .replace(/\/n\/n/g, '</p><p>')  // Double /n = new paragraph
+                .replace(/\/n/g, '<br>')        // Single /n = <br>
                 .replace(/^• /gm, '<li>')      // Bullet points
                 .replace(/<br>• /g, '<li>');   // Bullet points after line breaks
             
