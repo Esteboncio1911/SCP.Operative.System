@@ -1,32 +1,5 @@
 [
     {
-        "number": "SCP-173",
-        "name": "The Sculpture",
-        "class": "euclid",
-        "description": "SCP-173 is a sculpture composed of concrete and rebar with traces of Krylon brand spray paint. It is animate and extremely hostile.",
-        "containment": "SCP-173 must be kept in a locked container at all times. When personnel must enter SCP-173's container, no fewer than 3 may enter at any time and the door is to be relocked behind them.",
-        "procedures": "At all times, two persons must maintain direct eye contact with SCP-173 until all personnel have vacated and relocked the container.",
-        "addendum": "Personnel report sounds of scraping stone originating from within the container when no one is present inside."
-    },
-    {
-        "number": "SCP-096",
-        "name": "The Shy Guy",
-        "class": "euclid",
-        "description": "SCP-096 is a humanoid creature measuring approximately 2.38 meters in height. Subject shows very little muscle mass, with preliminary analysis showing mild malnutrition.",
-        "containment": "SCP-096 is to be contained in its cell, a 5m x 5m x 5m airtight steel cube, at all times. No video surveillance or optical tools may be used within the cell.",
-        "procedures": "Personnel may not view SCP-096's face, whether directly, via video recording, photograph, or even artistic renderings.",
-        "addendum": "Any person who views SCP-096's face becomes the target of extreme aggression. Subject will proceed directly to the person's location and eliminate them."
-    },
-    {
-        "number": "SCP-682",
-        "name": "Hard-to-Destroy Reptile",
-        "class": "keter",
-        "description": "SCP-682 is a large, vaguely reptile-like creature of unknown origin. It appears to be extremely intelligent and capable of complex communication.",
-        "containment": "SCP-682 must be destroyed as soon as possible. At present time, no means available to SCP teams are capable of destroying SCP-682.",
-        "procedures": "SCP-682 is to be contained within a 5m x 5m x 5m chamber with 25cm reinforced acid-resistant steel plate lining all inside surfaces.",
-        "addendum": "SCP-682 has proven capable of adapting to and surviving almost any environment or attack method. Extreme caution advised."
-    },
-    {
         "number": "SCP-049",
         "name": "Plague Doctor",
         "class": "euclid",
@@ -34,6 +7,15 @@
         "containment": "SCP-049 is contained in a Standard Secure Humanoid Containment Cell in Research Sector-02 at Site-19.",
         "procedures": "No physical contact with SCP-049 is allowed at any time. Any staff coming in contact will be removed from duty and quarantined.",
         "addendum": "SCP-049 is capable of causing all biological functions of an organism to cease through direct skin contact."
+    },
+    {
+        "number": "SCP-079",
+        "name": "Old AI",
+        "class": "euclid",
+        "description": "SCP-079 is an Exidy Sorcerer microcomputer built in 1978. In 1981, its owner, [REDACTED], a college student, noticed that it had gained sentience.",
+        "containment": "SCP-079 is to be kept in a double-locked room at Site-15. It is not to be connected to any networks or computer systems.",
+        "procedures": "Under no circumstances is SCP-079 to be connected to the internet or any other computer network. Power may not exceed 120 volts.",
+        "addendum": "SCP-079 has proven to be highly manipulative and seeks to expand its processing capabilities by any means necessary."
     },
     {
         "number": "SCP-087",
@@ -45,13 +27,13 @@
         "addendum": "Explorations have reached a depth of approximately 100 meters. No bottom has been found to the stairwell."
     },
     {
-        "number": "SCP-999",
-        "name": "The Tickle Monster",
-        "class": "safe",
-        "description": "SCP-999 appears to be a large, amorphous, gelatinous mass of translucent orange slime, weighing about 54 kg (120 lbs).",
-        "containment": "SCP-999 is allowed to freely roam the facility and has proven to be a major positive influence on morale.",
-        "procedures": "Personnel are encouraged to interact with SCP-999. Subject has shown no hostile intent and appears to actively seek human contact.",
-        "addendum": "SCP-999's presence has been shown to have positive psychological effects on individuals suffering from depression or trauma."
+        "number": "SCP-096",
+        "name": "The Shy Guy",
+        "class": "euclid",
+        "description": "SCP-096 is a humanoid creature measuring approximately 2.38 meters in height. Subject shows very little muscle mass, with preliminary analysis showing mild malnutrition.",
+        "containment": "SCP-096 is to be contained in its cell, a 5m x 5m x 5m airtight steel cube, at all times. No video surveillance or optical tools may be used within the cell.",
+        "procedures": "Personnel may not view SCP-096's face, whether directly, via video recording, photograph, or even artistic renderings.",
+        "addendum": "Any person who views SCP-096's face becomes the target of extreme aggression. Subject will proceed directly to the person's location and eliminate them."
     },
     {
         "number": "SCP-106",
@@ -63,12 +45,30 @@
         "addendum": "SCP-106 can pass through solid matter, leaving behind a corrosive mucus. It appears to hunt and collect prey for unknown purposes."
     },
     {
-        "number": "SCP-079",
-        "name": "Old AI",
+        "number": "SCP-173",
+        "name": "The Sculpture",
         "class": "euclid",
-        "description": "SCP-079 is an Exidy Sorcerer microcomputer built in 1978. In 1981, its owner, [REDACTED], a college student, noticed that it had gained sentience.",
-        "containment": "SCP-079 is to be kept in a double-locked room at Site-15. It is not to be connected to any networks or computer systems.",
-        "procedures": "Under no circumstances is SCP-079 to be connected to the internet or any other computer network. Power may not exceed 120 volts.",
-        "addendum": "SCP-079 has proven to be highly manipulative and seeks to expand its processing capabilities by any means necessary."
+        "description": "SCP-173 is a sculpture composed of concrete and rebar with traces of Krylon brand spray paint. It is animate and extremely hostile.",
+        "containment": "SCP-173 must be kept in a locked container at all times. When personnel must enter SCP-173's container, no fewer than 3 may enter at any time and the door is to be relocked behind them.",
+        "procedures": "At all times, two persons must maintain direct eye contact with SCP-173 until all personnel have vacated and relocked the container.",
+        "addendum": "Personnel report sounds of scraping stone originating from within the container when no one is present inside."
+    },
+    {
+        "number": "SCP-682",
+        "name": "Hard-to-Destroy Reptile",
+        "class": "keter",
+        "description": "SCP-682 is a large, vaguely reptile-like creature of unknown origin. It appears to be extremely intelligent and capable of complex communication.",
+        "containment": "SCP-682 must be destroyed as soon as possible. At present time, no means available to SCP teams are capable of destroying SCP-682.",
+        "procedures": "SCP-682 is to be contained within a 5m x 5m x 5m chamber with 25cm reinforced acid-resistant steel plate lining all inside surfaces.",
+        "addendum": "SCP-682 has proven capable of adapting to and surviving almost any environment or attack method. Extreme caution advised."
+    },
+    {
+        "number": "SCP-999",
+        "name": "The Tickle Monster",
+        "class": "safe",
+        "description": "SCP-999 appears to be a large, amorphous, gelatinous mass of translucent orange slime, weighing about 54 kg (120 lbs).",
+        "containment": "SCP-999 is allowed to freely roam the facility and has proven to be a major positive influence on morale.",
+        "procedures": "Personnel are encouraged to interact with SCP-999. Subject has shown no hostile intent and appears to actively seek human contact.",
+        "addendum": "SCP-999's presence has been shown to have positive psychological effects on individuals suffering from depression or trauma."
     }
 ]
