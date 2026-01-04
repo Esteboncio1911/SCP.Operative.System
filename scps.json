@@ -1,5 +1,28 @@
 [
     {
+        "number": "SCP-002",
+        "name": "La Sala Viviente",
+        "class": "euclid",
+        "sections": [
+            {
+                "title": "Clase de Objeto",
+                "content": "Euclid"
+            },
+            {
+                "title": "Procedimientos Especiales de Contención",
+                "content": "SCP-002 debe permanecer conectado a una fuente de alimentación adecuada en todo momento, para mantenerlo en lo que parece ser un modo de recarga. En caso de corte de electricidad, se cerrará la barrera de emergencia entre el objeto y las instalaciones y se evacuará la zona inmediata. Una vez restablecida la alimentación eléctrica de las instalaciones, se iluminarán alternativamente ráfagas de rayos X y luz ultravioleta en la zona hasta que SCP-002 se vuelva a conectar a la fuente de alimentación y vuelva al modo de recarga. El área de contención se mantendrá a presión de aire negativa en todo momento./n/nSe requiere que haya equipos con un mínimo de dos (2) miembros a menos de 20 metros de SCP-002 o su área de contención. El personal debe mantener contacto físico entre sí en todo momento para confirmar que hay otra persona presente, ya que la percepción puede verse atenuada, distorsionada o influenciada por la proximidad al objeto./n/nNo se permite el acceso al personal por debajo del Nivel 3 dentro de SCP-002. Este requisito puede ser eximido mediante autorización por escrito de dos (2) administradores de Nivel 4 externos. El personal de mando al que se le haya concedido dicha exención deberá estar escoltado por al menos cinco (5) miembros del personal de seguridad de Nivel 3 durante todo el tiempo que dure su contacto y deberá renunciar temporalmente a su rango y autorización de seguridad. Tras el contacto, el personal de mando será escoltado al menos a 5 km de SCP-002 para someterse a una cuarentena de setenta y dos (72) horas y a una evaluación psicológica. Si el personal psicológico lo considera apto para volver al servicio, se le podrá restituir su rango y su autorización de seguridad cuando expire la cuarentena."
+            },
+            {
+                "title": "Descripción",
+                "content": "Movido al Sitio-19 en 1993. Origen desconocido. Está construido de hormigón y varilla con trazas de pintura en aerosol marca Krylon./n/nSCP-173 es animado y extremadamente hostil. El objeto no puede moverse mientras esté dentro de una línea de visión directa. La línea de visión no debe romperse en ningún momento con SCP-173. El personal asignado a entrar al contenedor está instruido a alertarse mutuamente antes de parpadear./n/nSe ha reportado que ataca quebrando el cuello en la base del cráneo, o por estrangulación. En el evento de un ataque, el personal debe observar los Procedimientos de Clase 4 de Riesgo de Objeto y reportarse con el supervisor de seguridad del sitio. El personal reporta sonidos de raspado de piedra originándose desde dentro del contenedor cuando no hay personal presente. Esto es normal, y no debe preocupar a ningún miembro del personal."
+            },
+            {
+                "title": "Addendum",
+                "content": "El personal debe ser consciente de que SCP-173 produce grandes cantidades de desechos fecales y sanguíneos./n/nEl origen de estos materiales es desconocido. El contenedor debe ser limpiado cada dos semanas."
+            }
+        ]
+    },
+    {
         "number": "SCP-173",
         "name": "La Escultura",
         "class": "euclid",
