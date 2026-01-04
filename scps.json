@@ -1,7 +1,7 @@
 [
     {
-        "number": "SCP-049",
-        "name": "El Doctor de la Peste",
+        "number": "SCP-173",
+        "name": "La Escultura",
         "class": "euclid",
         "sections": [
             {
@@ -10,20 +10,115 @@
             },
             {
                 "title": "Procedimientos Especiales de Contención",
-                "content": "SCP-049 se encuentra contenido dentro de una celda de contención humanoide segura estándar en el Sector de Investigación-02 del Sitio-19. SCP-049 debe ser sedado antes de cualquier intento de transporte. Durante el transporte, SCP-049 debe ser asegurado dentro de un arnés de restricción humanoide Clase III (que incluye un collar de bloqueo y restricciones de extensión) y monitoreado por no menos de dos guardias armados.\n\nAunque SCP-049 suele cooperar con la mayoría del personal de la Fundación, los arrebatos o cambios repentinos en su comportamiento deben ser tratados con fuerza elevada. Bajo ninguna circunstancia el personal debe entrar en contacto directo con SCP-049 durante estos arrebatos. En caso de que SCP-049 se vuelva agresivo, se ha demostrado que la aplicación de lavanda (L. multifida) produce un efecto calmante en la entidad. Una vez calmado, SCP-049 suele mostrarse dócil y regresa a su contención sin oponer resistencia.\\n\\nCon el fin de facilitar la contención continua de SCP-049, se proporcionará a la entidad el cadáver de un animal recientemente fallecido (normalmente un bovino u otro mamífero grande) una vez cada dos semanas para su estudio. Los cadáveres que se conviertan en instancias de SCP-049-2 deberán ser retirados de la celda de contención de SCP-049 e incinerados. SCP-049 ya no tiene permiso para interactuar con sujetos humanos, y las solicitudes de sujetos humanos deben ser denegadas."
-            },
-            {
-                "title": "Actualización del Procedimiento de Contención Temporal",
-                "content": "(Véase el Apéndice 049.3) Según la Orden del Comité de Contención 049.S19.17.1, SCP-049 ya no tiene permiso para interactuar directamente con ningún miembro del personal de la Fundación, ni se le proporcionarán cadáveres adicionales para utilizarlos en sus cirugías. Esta orden permanecerá vigente indefinidamente, hasta que se alcance un consenso sobre la contención continua de SCP-049."
+                "content": "SCP-173 debe mantenerse en un contenedor cerrado en todo momento. Cuando el personal deba entrar al contenedor de SCP-173, no menos de 3 personas pueden entrar al mismo tiempo y la puerta debe cerrarse nuevamente detrás de ellos./n/nEn todo momento, dos personas deben mantener contacto visual directo con SCP-173 hasta que todo el personal haya salido y cerrado el contenedor. Personal que reporte tener síntomas de fatiga visual será reemplazado de inmediato."
             },
             {
                 "title": "Descripción",
-                "content": "SCP-049 es una entidad humanoide, de aproximadamente 1,9 metros de altura, que tiene la apariencia de un médico medieval especializado en plagas. Aunque SCP-049 parece llevar las túnicas gruesas y la máscara de cerámica características de esa profesión, las prendas parecen haber crecido con el tiempo a partir del cuerpo de SCP-0491, y ahora son casi indistinguibles de la forma que se encuentra debajo de ellas. Las radiografías indican que, a pesar de ello, SCP-049 tiene una estructura esquelética humanoide debajo de su capa exterior.\\n\\nSCP-049 es capaz de hablar en varios idiomas, aunque tiende a preferir el inglés o el francés medieval2. Aunque SCP-049 suele ser cordial y cooperativo con el personal de la Fundación, puede irritarse especialmente o, en ocasiones, volverse abiertamente agresivo si siente que está en presencia de lo que él denomina la «Pestilencia». Aunque la naturaleza exacta de esta Pestilencia es actualmente desconocida para los investigadores de la Fundación, parece ser un tema de gran preocupación para SCP-049.\\n\\nSCP-049 se vuelve hostil con las personas que considera afectadas por la Pestilencia, por lo que a menudo es necesario inmovilizarlo si se encuentra con alguna. Si no se le controla, SCP-049 generalmente intentará matar a cualquier persona de este tipo; SCP-049 es capaz de provocar el cese de todas las funciones biológicas de un organismo mediante el contacto directo con la piel. Actualmente se desconoce cómo ocurre esto, y las autopsias de las víctimas de SCP-049 han sido invariablemente inconclusas. SCP-049 ha expresado frustración o remordimiento tras estos asesinatos, indicando que han servido de poco para matar a «La Pestilencia», aunque normalmente intentará realizar una cirugía rudimentaria en el cadáver utilizando los instrumentos que contiene una maleta médica negra que lleva consigo en todo momento3. Aunque estas cirugías no siempre son «exitosas», a menudo dan lugar a la creación de instancias de SCP-049-2.\\n\\nLas instancias SCP-049-2 son cadáveres reanimados que han sido operados por SCP-049. Estas instancias no parecen conservar ninguno de sus recuerdos previos ni funciones mentales, y solo tienen habilidades motoras básicas y mecanismos de respuesta. Aunque estas instancias suelen estar inactivas, moviéndose muy poco y de forma generalmente ambulatoria, pueden volverse extremadamente agresivas si se las provoca o si SCP-049 les da órdenes. Las instancias SCP-049-2 expresan funciones biológicas activas, aunque estas son muy diferentes de la fisiología humana tal y como se entiende actualmente. A pesar de estas alteraciones, SCP-049 suele comentar que los sujetos han sido «curados»."
+                "content": "Movido al Sitio-19 en 1993. Origen desconocido. Está construido de hormigón y varilla con trazas de pintura en aerosol marca Krylon./n/nSCP-173 es animado y extremadamente hostil. El objeto no puede moverse mientras esté dentro de una línea de visión directa. La línea de visión no debe romperse en ningún momento con SCP-173. El personal asignado a entrar al contenedor está instruido a alertarse mutuamente antes de parpadear./n/nSe ha reportado que ataca quebrando el cuello en la base del cráneo, o por estrangulación. En el evento de un ataque, el personal debe observar los Procedimientos de Clase 4 de Riesgo de Objeto y reportarse con el supervisor de seguridad del sitio. El personal reporta sonidos de raspado de piedra originándose desde dentro del contenedor cuando no hay personal presente. Esto es normal, y no debe preocupar a ningún miembro del personal."
             },
             {
-                "title": "Apéndice 049.1: Descubrimiento",
-                "content": "SCP-049 fue descubierto durante la investigación de una serie de desapariciones desconocidas en la ciudad de Montauban, en el sur de Francia. Durante una redada en una vivienda local, los investigadores encontraron varios ejemplares de SCP-049-2, así como SCP-049. Mientras el personal policial se enfrentaba a los ejemplares hostiles de 049-2, se observó que SCP-049 observaba el enfrentamiento y tomaba notas en su diario. Una vez eliminados todos los ejemplares de 049-2, SCP-049 se entregó voluntariamente a la Fundación.\\n\\n((Aquí va la entrevista))\\n\\nNota del entrevistador: Aunque SCP-049 es capaz de comunicarse de una manera muy humana, se experimenta una extraña sensación de inquietud cuando se está en su presencia. No nos equivoquemos, hay algo realmente inquietante en esta entidad.\\n\\nAdemás, hemos confiscado ese palo puntiagudo que SCP-049 no deja de agitar. En parte, esto se debió a los protocolos estándar de confiscación de las posesiones de las anomalías, y en parte porque 049 realmente es una amenaza cuando lo agita como lo hace. Al principio, la entidad se mostró descontenta, pero después de que le hicimos algunas concesiones proporcionándole «sujetos de prueba» (que, hay que reconocerlo, benefician más a nuestra propia investigación), se mostró más receptiva a la idea."
+                "title": "Addendum",
+                "content": "El personal debe ser consciente de que SCP-173 produce grandes cantidades de desechos fecales y sanguíneos./n/nEl origen de estos materiales es desconocido. El contenedor debe ser limpiado cada dos semanas."
             }
         ]
+    },
+    {
+        "number": "SCP-096",
+        "name": "El Tipo Tímido",
+        "class": "euclid",
+        "sections": [
+            {
+                "title": "Clase de Objeto",
+                "content": "Euclid"
+            },
+            {
+                "title": "Procedimientos Especiales de Contención",
+                "content": "SCP-096 debe estar contenido en su celda, un cubo de acero hermético de 5m x 5m x 5m, en todo momento. Revisiones semanales de cualquier grieta o agujero son obligatorias./n/nNo se pueden usar herramientas de vigilancia por video u ópticas dentro de la celda. Los miembros del personal de seguridad usarán sensores de presión previos al ingreso para evitar encuentros inesperados con SCP-096./n/nCualquier fotografía, video o grabación de SCP-096 debe ser destruida inmediatamente."
+            },
+            {
+                "title": "Descripción",
+                "content": "SCP-096 es una criatura humanoide que mide aproximadamente 2.38 metros de altura. El sujeto muestra muy poca masa muscular, con análisis preliminares que muestran desnutrición leve. Los brazos son groseramente desproporcionados con el resto del cuerpo, con una longitud aproximada de 1.5 metros cada uno./n/nLa piel es en su mayoría carente de pigmentación, sin ningún pelo corporal presente./n/nLa mandíbula de SCP-096 puede abrirse hasta cuatro (4) veces más que la de un humano promedio. Otras características faciales permanecen similares a un humano promedio, con la excepción de los ojos, que también carecen de pigmentación."
+            },
+            {
+                "title": "Comportamiento",
+                "content": "Normalmente, SCP-096 es extremadamente dócil, con sensores de presión indicando que pasa la mayor parte del día caminando a lo largo de la pared este de su contenedor./n/nSin embargo, cuando alguien ve el rostro de SCP-096, ya sea directamente, por video, o incluso en una fotografía, entrará en una considerable angustia emocional. SCP-096 cubrirá su cara con las manos y comenzará a gritar, llorar y emitir sonidos incoherentes./n/nAproximadamente uno (1) a dos (2) minutos después de la primera visión, SCP-096 comenzará a correr hacia la ubicación de la persona que lo vio (quien ahora será referido como SCP-096-1)."
+            },
+            {
+                "title": "Capacidades Documentadas",
+                "content": "• Puede detectar la ubicación exacta de SCP-096-1 sin importar la distancia/n• Velocidad documentada de entre 35-███ km/h/n• Ningún material conocido puede impedir su progreso/n• [DATOS BORRADOS] después de alcanzar a SCP-096-1"
+            }
+        ]
+    },
+    {
+        "number": "SCP-682",
+        "name": "Reptil Difícil de Destruir",
+        "class": "keter",
+        "sections": [
+            {
+                "title": "Clase de Objeto",
+                "content": "Keter"
+            },
+            {
+                "title": "Procedimientos Especiales de Contención",
+                "content": "SCP-682 debe ser destruido lo antes posible. En el momento actual, no hay medios disponibles para los equipos SCP que sean capaces de destruir a SCP-682, solo métodos de contención./n/nSCP-682 debe estar contenido dentro de una cámara de 5m x 5m x 5m con revestimiento de placa de acero resistente al ácido reforzada de 25cm en todas las superficies interiores. La cámara de contención debe ser llenada con ácido clorhídrico hasta que SCP-682 esté sumergido y sin poder moverse./n/nCualquier intento de SCP-682 de moverse, hablar, o violar su contención debe ser reaccionado rápidamente y con fuerza de acuerdo a los Procedimientos de Seguridad Estándar 42-XK./n/nEl personal que interactúe con SCP-682 debe reportar todos los cambios de comportamiento o adapciones físicas inmediatamente al supervisor de contención."
+            },
+            {
+                "title": "Descripción",
+                "content": "SCP-682 es una criatura grande con aspecto vagamente reptiliano de origen desconocido. Parece ser extremadamente inteligente y fue observado teniendo conversaciones complejas con SCP-079 durante su breve tiempo de exposición./n/nSCP-682 parece tener odio hacia toda la vida, lo cual ha sido expresado en varias entrevistas durante el tiempo de contención./n/nSCP-682 ha demostrado ser capaz de adaptarse y sobrevivir casi cualquier entorno o método de ataque. El sujeto ha sido observado adaptándose a cada intento de terminación, incluidos:/n/n• Exposición prolongada al ácido/n• Temperaturas extremas (tanto frío como calor)/n• Privación de oxígeno/n• Hambruna prolongada/n• [CENSURADO]/n• Exposición a otros objetos SCP letales"
+            },
+            {
+                "title": "Entrevista 682-1",
+                "content": "Dr. ██████: ¿Por qué matas?/nSCP-682: [CENSURADO]/n/nDr. ██████: ¿Qué sientes hacia la humanidad?/nSCP-682: Asco./n/nDr. ██████: ¿Por qué no intentas razonar con nosotros?/nSCP-682: Vosotros sois asquerosos. Todos vosotros./n/n[RESTO DE LA ENTREVISTA CENSURADA]"
+            },
+            {
+                "title": "Addendum 682-B",
+                "content": "SCP-682 tiene una capacidad regenerativa extremadamente alta. El sujeto ha sobrevivido después de que el 87% de su masa corporal fuera perdida o destruida./n/nCuando se reduce a menos del 10% de su masa corporal, SCP-682 entra en un estado de letargo mientras se regenera. Este proceso puede tardar desde 3 horas hasta 2 semanas dependiendo del daño recibido./n/nSe aconseja extrema precaución. SCP-682 debe ser destruido a toda costa."
+            }
+        ]
+    },
+    {
+        "number": "SCP-049",
+        "name": "Doctor de la Peste",
+        "class": "euclid",
+        "description": "SCP-049 es una entidad humanoide, de aproximadamente 1.9 metros de altura, que tiene la apariencia de un doctor de la peste medieval.",
+        "containment": "SCP-049 está contenido en una Celda de Contención Humanoide Segura Estándar en el Sector de Investigación-02 en el Sitio-19.",
+        "procedures": "No se permite ningún contacto físico con SCP-049 en ningún momento. Cualquier personal que entre en contacto será removido del servicio y puesto en cuarentena.",
+        "addendum": "SCP-049 es capaz de hacer que cesen todas las funciones biológicas de un organismo mediante contacto directo con la piel."
+    },
+    {
+        "number": "SCP-087",
+        "name": "La Escalera",
+        "class": "euclid",
+        "description": "SCP-087 es una escalera de plataforma sin iluminación. Las escaleras descienden en un ángulo de 38 grados durante 13 escalones antes de llegar a una plataforma semicircular de aproximadamente 3 metros de diámetro.",
+        "containment": "SCP-087 se encuentra en el campus de [CENSURADO]. La puerta debe permanecer cerrada en todo momento.",
+        "procedures": "La entrada a SCP-087 solo está permitida con fines de prueba programados. Todo el personal debe estar equipado con fuentes de luz de alta potencia.",
+        "addendum": "Las exploraciones han alcanzado una profundidad de aproximadamente 100 metros. No se ha encontrado el fondo de la escalera."
+    },
+    {
+        "number": "SCP-999",
+        "name": "El Monstruo de las Cosquillas",
+        "class": "safe",
+        "description": "SCP-999 parece ser una masa grande, amorfa y gelatinosa de baba naranja translúcida, que pesa alrededor de 54 kg (120 libras).",
+        "containment": "SCP-999 tiene permitido deambular libremente por las instalaciones y ha demostrado ser una gran influencia positiva en la moral.",
+        "procedures": "Se alienta al personal a interactuar con SCP-999. El sujeto no ha mostrado intención hostil y parece buscar activamente el contacto humano.",
+        "addendum": "Se ha demostrado que la presencia de SCP-999 tiene efectos psicológicos positivos en individuos que sufren de depresión o trauma."
+    },
+    {
+        "number": "SCP-106",
+        "name": "El Viejo",
+        "class": "keter",
+        "description": "SCP-106 parece ser un humanoide anciano, con una apariencia general de descomposición avanzada.",
+        "containment": "SCP-106 debe estar contenido en un contenedor sellado, compuesto de acero revestido de plomo. Cualquier actividad corrosiva debe ser monitoreada.",
+        "procedures": "No se permite ninguna interacción física con SCP-106 en ningún momento. SCP-106 causa deterioro severo de todos los materiales que toca.",
+        "addendum": "SCP-106 puede pasar a través de materia sólida, dejando atrás un moco corrosivo. Parece cazar y recolectar presas con fines desconocidos."
+    },
+    {
+        "number": "SCP-079",
+        "name": "IA Antigua",
+        "class": "euclid",
+        "description": "SCP-079 es una microcomputadora Exidy Sorcerer construida en 1978. En 1981, su dueño, [CENSURADO], un estudiante universitario, notó que había ganado consciencia.",
+        "containment": "SCP-079 debe mantenerse en una habitación con doble cerradura en el Sitio-15. No debe conectarse a ninguna red o sistema informático.",
+        "procedures": "Bajo ninguna circunstancia se debe conectar SCP-079 a internet o a cualquier otra red informática. La energía no debe exceder los 120 voltios.",
+        "addendum": "SCP-079 ha demostrado ser altamente manipulador y busca expandir sus capacidades de procesamiento por cualquier medio necesario."
     }
 ]
