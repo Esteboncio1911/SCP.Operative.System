@@ -20,24 +20,15 @@ let settings = {
 // Load all data when page loads
 async function loadData() {
     try {
-        // Load SCPs
-        const scpsResponse = await fetch('scps.json');
-        scpDatabase = await scpsResponse.json();
-        
-        // Load Personnel
-        const personnelResponse = await fetch('personnel.json');
-        personnelData = await personnelResponse.json();
-        
-        // Load Incidents
-        const incidentsResponse = await fetch('incidents.json');
-        incidentsData = await incidentsResponse.json();
-        
-        // Load Translations
+        // Load Translations first
         const translationsResponse = await fetch('translations.json');
         translations = await translationsResponse.json();
         
         // Load saved settings
         loadSettings();
+        
+        // Load all data based on language
+        await loadLanguageData();
         
         // Initialize the interface
         init();
@@ -46,6 +37,35 @@ async function loadData() {
         // Fallback to empty arrays if files can't be loaded
         init();
     }
+}
+
+// Load all language-specific data
+async function loadLanguageData() {
+    try {
+        const suffix = currentLanguage === 'en' ? '-en.json' : '.json';
+        
+        // Load SCPs
+        const scpsResponse = await fetch('scps' + suffix);
+        scpDatabase = await scpsResponse.json();
+        
+        // Load Personnel
+        const personnelResponse = await fetch('personnel' + suffix);
+        personnelData = await personnelResponse.json();
+        
+        // Load Incidents
+        const incidentsResponse = await fetch('incidents' + suffix);
+        incidentsData = await incidentsResponse.json();
+    } catch (error) {
+        console.error('Error loading language data:', error);
+        scpDatabase = [];
+        personnelData = [];
+        incidentsData = [];
+    }
+}
+
+// Load SCPs based on current language (kept for backwards compatibility)
+async function loadSCPs() {
+    await loadLanguageData();
 }
 
 // Load settings from localStorage
@@ -96,13 +116,16 @@ function resetSettings() {
 }
 
 // Change language
-function changeLanguage(lang, save = true) {
+async function changeLanguage(lang, save = true) {
     currentLanguage = lang;
     settings.language = lang;
     
     // Update active button
     document.querySelectorAll('[id^="lang-"]').forEach(btn => btn.classList.remove('active'));
     document.getElementById('lang-' + lang).classList.add('active');
+    
+    // Reload all data in new language
+    await loadLanguageData();
     
     // Update all translatable elements
     document.querySelectorAll('[data-i18n]').forEach(element => {
