@@ -883,3 +883,218 @@ body::before {
     color: var(--scp-blue);
     margin-right: 10px;
 }
+
+/* Settings Panel */
+.settings-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.settings-group {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid var(--terminal-green);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 0;
+    transition: all 0.3s;
+}
+
+.settings-group:hover {
+    border-color: var(--scp-blue);
+    box-shadow: 0 0 25px rgba(0, 212, 255, 0.2);
+}
+
+.settings-header h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--terminal-green);
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.settings-header p {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 16px;
+    color: rgba(0, 255, 65, 0.6);
+    margin-bottom: 20px;
+}
+
+.settings-options {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.setting-btn {
+    padding: 12px 24px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--terminal-green);
+    border: 2px solid rgba(0, 255, 65, 0.3);
+    cursor: pointer;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.setting-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--terminal-green);
+    opacity: 0.2;
+    transition: left 0.3s;
+}
+
+.setting-btn:hover::before {
+    left: 0;
+}
+
+.setting-btn:hover {
+    border-color: var(--terminal-green);
+    transform: translateY(-2px);
+}
+
+.setting-btn.active {
+    background: var(--terminal-green);
+    color: #000;
+    border-color: var(--terminal-green);
+    box-shadow: 0 0 20px var(--terminal-glow);
+}
+
+.theme-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.theme-preview {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px currentColor;
+}
+
+/* Toggle Switches */
+.settings-toggles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.toggle-option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 255, 65, 0.2);
+    transition: all 0.3s;
+}
+
+.toggle-option:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 255, 65, 0.4);
+}
+
+.toggle-option input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-slider {
+    position: relative;
+    width: 50px;
+    height: 26px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid var(--terminal-green);
+    transition: all 0.3s;
+}
+
+.toggle-slider::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    background: var(--terminal-green);
+    transition: all 0.3s;
+    box-shadow: 0 0 10px var(--terminal-glow);
+}
+
+.toggle-option input[type="checkbox"]:checked + .toggle-slider {
+    background: var(--terminal-green);
+    border-color: var(--terminal-green);
+}
+
+.toggle-option input[type="checkbox"]:checked + .toggle-slider::before {
+    left: 24px;
+    background: #000;
+    box-shadow: 0 0 10px var(--terminal-green);
+}
+
+.toggle-label {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--terminal-green);
+    letter-spacing: 1px;
+}
+
+.settings-actions {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Theme Classes */
+body.theme-amber {
+    --terminal-green: #ffb000;
+    --terminal-green-dark: #ff8800;
+    --terminal-glow: rgba(255, 176, 0, 0.5);
+    --scp-blue: #ffd700;
+}
+
+body.theme-blue {
+    --terminal-green: #00d4ff;
+    --terminal-green-dark: #0088ff;
+    --terminal-glow: rgba(0, 212, 255, 0.5);
+    --scp-blue: #00ffff;
+}
+
+body.theme-red {
+    --terminal-green: #ff0040;
+    --terminal-green-dark: #cc0033;
+    --terminal-glow: rgba(255, 0, 64, 0.5);
+    --scp-blue: #ff4466;
+}
+
+/* Effect Toggles */
+body.no-crt .crt-overlay {
+    display: none;
+}
+
+body.no-scanlines .crt-overlay::after {
+    display: none;
+}
+
+body.no-glitch .terminal-header h1 {
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+body.no-grid body::before {
+    display: none;
+}
