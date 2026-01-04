@@ -1,32 +1,5 @@
 [
     {
-        "number": "SCP-173",
-        "name": "La Escultura",
-        "class": "euclid",
-        "description": "SCP-173 es una escultura compuesta de hormigón y varillas de refuerzo con trazas de pintura en aerosol marca Krylon. Es animado y extremadamente hostil.",
-        "containment": "SCP-173 debe mantenerse en un contenedor cerrado en todo momento. Cuando el personal deba entrar al contenedor de SCP-173, no menos de 3 personas pueden entrar al mismo tiempo y la puerta debe cerrarse nuevamente detrás de ellos.",
-        "procedures": "En todo momento, dos personas deben mantener contacto visual directo con SCP-173 hasta que todo el personal haya salido y cerrado el contenedor.",
-        "addendum": "El personal reporta sonidos de piedra raspando que se originan dentro del contenedor cuando no hay nadie presente en el interior."
-    },
-    {
-        "number": "SCP-096",
-        "name": "El Tipo Tímido",
-        "class": "euclid",
-        "description": "SCP-096 es una criatura humanoide que mide aproximadamente 2.38 metros de altura. El sujeto muestra muy poca masa muscular, con análisis preliminares que muestran desnutrición leve.",
-        "containment": "SCP-096 debe estar contenido en su celda, un cubo de acero hermético de 5m x 5m x 5m, en todo momento. No se pueden usar herramientas de vigilancia por video u ópticas dentro de la celda.",
-        "procedures": "El personal no puede ver el rostro de SCP-096, ya sea directamente, mediante grabación de video, fotografía o incluso representaciones artísticas.",
-        "addendum": "Cualquier persona que vea el rostro de SCP-096 se convierte en objetivo de agresión extrema. El sujeto procederá directamente a la ubicación de la persona y la eliminará."
-    },
-    {
-        "number": "SCP-682",
-        "name": "Reptil Difícil de Destruir",
-        "class": "keter",
-        "description": "SCP-682 es una criatura grande con aspecto vagamente reptiliano de origen desconocido. Parece ser extremadamente inteligente y capaz de comunicación compleja.",
-        "containment": "SCP-682 debe ser destruido lo antes posible. En el momento actual, no hay medios disponibles para los equipos SCP que sean capaces de destruir a SCP-682.",
-        "procedures": "SCP-682 debe estar contenido dentro de una cámara de 5m x 5m x 5m con revestimiento de placa de acero resistente al ácido reforzada de 25cm en todas las superficies interiores.",
-        "addendum": "SCP-682 ha demostrado ser capaz de adaptarse y sobrevivir casi cualquier entorno o método de ataque. Se aconseja extrema precaución."
-    },
-    {
         "number": "SCP-049",
         "name": "Doctor de la Peste",
         "class": "euclid",
@@ -34,6 +7,15 @@
         "containment": "SCP-049 está contenido en una Celda de Contención Humanoide Segura Estándar en el Sector de Investigación-02 en el Sitio-19.",
         "procedures": "No se permite ningún contacto físico con SCP-049 en ningún momento. Cualquier personal que entre en contacto será removido del servicio y puesto en cuarentena.",
         "addendum": "SCP-049 es capaz de hacer que cesen todas las funciones biológicas de un organismo mediante contacto directo con la piel."
+    },
+    {
+        "number": "SCP-079",
+        "name": "IA Antigua",
+        "class": "euclid",
+        "description": "SCP-079 es una microcomputadora Exidy Sorcerer construida en 1978. En 1981, su dueño, [CENSURADO], un estudiante universitario, notó que había ganado consciencia.",
+        "containment": "SCP-079 debe mantenerse en una habitación con doble cerradura en el Sitio-15. No debe conectarse a ninguna red o sistema informático.",
+        "procedures": "Bajo ninguna circunstancia se debe conectar SCP-079 a internet o a cualquier otra red informática. La energía no debe exceder los 120 voltios.",
+        "addendum": "SCP-079 ha demostrado ser altamente manipulador y busca expandir sus capacidades de procesamiento por cualquier medio necesario."
     },
     {
         "number": "SCP-087",
@@ -45,13 +27,13 @@
         "addendum": "Las exploraciones han alcanzado una profundidad de aproximadamente 100 metros. No se ha encontrado el fondo de la escalera."
     },
     {
-        "number": "SCP-999",
-        "name": "El Monstruo de las Cosquillas",
-        "class": "safe",
-        "description": "SCP-999 parece ser una masa grande, amorfa y gelatinosa de baba naranja translúcida, que pesa alrededor de 54 kg (120 libras).",
-        "containment": "SCP-999 tiene permitido deambular libremente por las instalaciones y ha demostrado ser una gran influencia positiva en la moral.",
-        "procedures": "Se alienta al personal a interactuar con SCP-999. El sujeto no ha mostrado intención hostil y parece buscar activamente el contacto humano.",
-        "addendum": "Se ha demostrado que la presencia de SCP-999 tiene efectos psicológicos positivos en individuos que sufren de depresión o trauma."
+        "number": "SCP-096",
+        "name": "El Tipo Tímido",
+        "class": "euclid",
+        "description": "SCP-096 es una criatura humanoide que mide aproximadamente 2.38 metros de altura. El sujeto muestra muy poca masa muscular, con análisis preliminares que muestran desnutrición leve.",
+        "containment": "SCP-096 debe estar contenido en su celda, un cubo de acero hermético de 5m x 5m x 5m, en todo momento. No se pueden usar herramientas de vigilancia por video u ópticas dentro de la celda.",
+        "procedures": "El personal no puede ver el rostro de SCP-096, ya sea directamente, mediante grabación de video, fotografía o incluso representaciones artísticas.",
+        "addendum": "Cualquier persona que vea el rostro de SCP-096 se convierte en objetivo de agresión extrema. El sujeto procederá directamente a la ubicación de la persona y la eliminará."
     },
     {
         "number": "SCP-106",
@@ -63,12 +45,30 @@
         "addendum": "SCP-106 puede pasar a través de materia sólida, dejando atrás un moco corrosivo. Parece cazar y recolectar presas con fines desconocidos."
     },
     {
-        "number": "SCP-079",
-        "name": "IA Antigua",
+        "number": "SCP-173",
+        "name": "La Escultura",
         "class": "euclid",
-        "description": "SCP-079 es una microcomputadora Exidy Sorcerer construida en 1978. En 1981, su dueño, [CENSURADO], un estudiante universitario, notó que había ganado consciencia.",
-        "containment": "SCP-079 debe mantenerse en una habitación con doble cerradura en el Sitio-15. No debe conectarse a ninguna red o sistema informático.",
-        "procedures": "Bajo ninguna circunstancia se debe conectar SCP-079 a internet o a cualquier otra red informática. La energía no debe exceder los 120 voltios.",
-        "addendum": "SCP-079 ha demostrado ser altamente manipulador y busca expandir sus capacidades de procesamiento por cualquier medio necesario."
+        "description": "SCP-173 es una escultura compuesta de hormigón y varillas de refuerzo con trazas de pintura en aerosol marca Krylon. Es animado y extremadamente hostil.",
+        "containment": "SCP-173 debe mantenerse en un contenedor cerrado en todo momento. Cuando el personal deba entrar al contenedor de SCP-173, no menos de 3 personas pueden entrar al mismo tiempo y la puerta debe cerrarse nuevamente detrás de ellos.",
+        "procedures": "En todo momento, dos personas deben mantener contacto visual directo con SCP-173 hasta que todo el personal haya salido y cerrado el contenedor.",
+        "addendum": "El personal reporta sonidos de piedra raspando que se originan dentro del contenedor cuando no hay nadie presente en el interior."
+    },
+    {
+        "number": "SCP-682",
+        "name": "Reptil Difícil de Destruir",
+        "class": "keter",
+        "description": "SCP-682 es una criatura grande con aspecto vagamente reptiliano de origen desconocido. Parece ser extremadamente inteligente y capaz de comunicación compleja.",
+        "containment": "SCP-682 debe ser destruido lo antes posible. En el momento actual, no hay medios disponibles para los equipos SCP que sean capaces de destruir a SCP-682.",
+        "procedures": "SCP-682 debe estar contenido dentro de una cámara de 5m x 5m x 5m con revestimiento de placa de acero resistente al ácido reforzada de 25cm en todas las superficies interiores.",
+        "addendum": "SCP-682 ha demostrado ser capaz de adaptarse y sobrevivir casi cualquier entorno o método de ataque. Se aconseja extrema precaución."
+    },
+    {
+        "number": "SCP-999",
+        "name": "El Monstruo de las Cosquillas",
+        "class": "safe",
+        "description": "SCP-999 parece ser una masa grande, amorfa y gelatinosa de baba naranja translúcida, que pesa alrededor de 54 kg (120 libras).",
+        "containment": "SCP-999 tiene permitido deambular libremente por las instalaciones y ha demostrado ser una gran influencia positiva en la moral.",
+        "procedures": "Se alienta al personal a interactuar con SCP-999. El sujeto no ha mostrado intención hostil y parece buscar activamente el contacto humano.",
+        "addendum": "Se ha demostrado que la presencia de SCP-999 tiene efectos psicológicos positivos en individuos que sufren de depresión o trauma."
     }
 ]
