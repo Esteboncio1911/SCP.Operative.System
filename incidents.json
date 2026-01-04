@@ -3,28 +3,28 @@
         "id": "INC-173-A",
         "date": "2024-11-15",
         "subject": "SCP-173",
-        "severity": "HIGH",
-        "description": "Containment breach during routine maintenance. Subject terminated 2 personnel before recontainment. Security protocols updated."
+        "severity": "ALTA",
+        "description": "Brecha de contención durante mantenimiento de rutina. El sujeto terminó con 2 miembros del personal antes de la recontención. Protocolos de seguridad actualizados."
     },
     {
         "id": "INC-682-B",
         "date": "2024-10-28",
         "subject": "SCP-682",
-        "severity": "CRITICAL",
-        "description": "SCP-682 adapted to acid containment, requiring emergency protocol Zeta-9. Subject neutralized after 6 hours. Casualty count: 12."
+        "severity": "CRÍTICA",
+        "description": "SCP-682 se adaptó a la contención de ácido, requiriendo protocolo de emergencia Zeta-9. Sujeto neutralizado después de 6 horas. Recuento de bajas: 12."
     },
     {
         "id": "INC-096-C",
         "date": "2024-09-03",
         "subject": "SCP-096",
-        "severity": "MEDIUM",
-        "description": "Subject's face accidentally photographed by surveillance system. Affected personnel neutralized before full breach. Camera systems updated."
+        "severity": "MEDIA",
+        "description": "Rostro del sujeto fotografiado accidentalmente por el sistema de vigilancia. Personal afectado neutralizado antes de brecha completa. Sistemas de cámara actualizados."
     },
     {
         "id": "INC-106-D",
         "date": "2024-12-01",
         "subject": "SCP-106",
-        "severity": "HIGH",
-        "description": "SCP-106 escaped containment through corroded wall section. Lure protocol initiated successfully. 4 personnel MIA, presumed deceased."
+        "severity": "ALTA",
+        "description": "SCP-106 escapó de la contención a través de una sección de pared corroída. Protocolo de señuelo iniciado con éxito. 4 miembros del personal desaparecidos, presuntamente fallecidos."
     }
 ]
