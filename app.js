@@ -136,6 +136,15 @@ async function changeLanguage(lang, save = true) {
         }
     });
     
+    // Update placeholders
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-i18n-placeholder');
+        const translation = getTranslation(key);
+        if (translation) {
+            element.placeholder = translation;
+        }
+    });
+    
     // Re-render dynamic content
     renderSCPList();
     renderPersonnel();
@@ -199,10 +208,34 @@ function toggleEffect(effect, state = null, save = true) {
 
 // Initialize
 function init() {
+    // Apply initial translations
+    applyTranslations();
+    
     renderSCPList();
     renderPersonnel();
     renderIncidents();
     startSystemLog();
+}
+
+// Apply translations to all elements
+function applyTranslations() {
+    // Update all translatable elements
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        const translation = getTranslation(key);
+        if (translation) {
+            element.textContent = translation;
+        }
+    });
+    
+    // Update placeholders
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-i18n-placeholder');
+        const translation = getTranslation(key);
+        if (translation) {
+            element.placeholder = translation;
+        }
+    });
 }
 
 // Login
